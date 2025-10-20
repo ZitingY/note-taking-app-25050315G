@@ -27,6 +27,6 @@
         tips: make sure requirements.txt is complete
 
 3. Notes:
-  Always use environment variables for secrets
-  After editing the code, remember git add . -> git commit -m "...." -> git push origin main/dev -> merge
-  Branch protection and GitHub fork/private repo rules may block direct pushes
+  - Always use environment variables for secrets
+  - After editing the code, remember git add . -> git commit -m "...." -> git push origin main/dev -> merge
+  - Branch protection and GitHub fork/private repo rules may block direct pushes
