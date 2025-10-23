@@ -14,11 +14,11 @@
    - type "pip install psycopg2-binary" in your terminal if there is an error saying No module named 'psycopg2'
 
 2. Refactor the app and deploy the app in Vercel
-   Reminder: vercel only can import public repository for free
-   Problem 1: How to convert private fork repository to public one
-      (Actually I tried for even 1 hour to solve this problem asking AI for help, but still cannot find a easy way to solve it perfectly)
-      A method solve the problem completely but wasting time: create a new public repository, copy all the files in private repository and paste them in new public one
-   Problem 2: How to deploy your app on Vercel correctly
+   - Reminder: vercel only can import public repository for free
+   - Problem 1: How to convert private fork repository to public one
+     - (Actually I tried for even 1 hour to solve this problem asking AI for help, but still cannot find a easy way to solve it perfectly)
+      - A method solve the problem completely but wasting time: create a new public repository, copy all the files in private repository and paste them in new public one
+   - Problem 2: How to deploy your app on Vercel correctly
       - create a new project
       - import your Git repository
       - fill in all the link information in the environment variables section, for example DATABASE_URL, GITHUB_TOKEN, etc. Or import .env file
